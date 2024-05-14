@@ -1,0 +1,33 @@
+:host {
+  height: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: flex-start;
+}
+.h1 {
+  z-index: 1;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  position: fixed;
+  height: max-content;
+  min-width: min-content;
+}
+.button {
+  z-index: 1;
+  left: 678.2857840401784px;
+  top: 540.9523228236607px;
+  position: fixed;
+  height: max-content;
+  flex-shrink: 0;
+}
+.button_1 {
+  z-index: 1;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 592.7619861421131px;
+  position: fixed;
+  height: max-content;
+  flex-shrink: 0;
+}
